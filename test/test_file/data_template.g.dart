@@ -32,23 +32,23 @@ abstract class _$DataFieldTemplateLombok {
   }
 
   /// Getter
-  void getFieldA(int fieldA) {
-    this.fieldA = fieldA;
+  int getFieldA() {
+    return fieldA;
   }
 
-  void getFieldB(double fieldB) {
-    this.fieldB = fieldB;
+  double getFieldB() {
+    return fieldB;
   }
 
-  void getFieldC(String fieldC) {
-    this.fieldC = fieldC;
+  String getFieldC() {
+    return fieldC;
   }
 
-  void getFieldD(bool fieldD) {
-    this.fieldD = fieldD;
+  bool getFieldD() {
+    return fieldD;
   }
 
-  void getFinalFieldE(String finalFieldE) {
-    this.finalFieldE = finalFieldE;
+  String getFinalFieldE() {
+    return finalFieldE;
   }
 }
