@@ -1,4 +1,4 @@
-Lombok (Dart Version)
+# Lombok (Dart Version)
 
 ## Reference
 [lombok (Java)](https://projectlombok.org)
@@ -12,7 +12,7 @@ A simple usage example:
 
 part 'some_class.g.dart';
 
-@Data
+@data
 class SomeClass with _$SomeClassLombok {
   int counter = 1;
 }
