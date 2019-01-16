@@ -1,3 +1,9 @@
+## 0.0.3
+
+- Fix getter template
+- Update readme
+- Clean up useless code
+
 ## 0.0.2
 
 - Fix wrong dependency configuration
