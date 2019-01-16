@@ -3,6 +3,35 @@
 ## Reference
 [lombok (Java)](https://projectlombok.org)
 
+## Feature
+- [x] @data / @Data() 
+  - [ ] full configuration
+  - [ ] toString
+  - [ ] @EqualAndHashCode
+  
+- [x] @getter / @Getter()
+  - [ ] full configuration
+  - [ ] support use on field
+  
+- [x] @setter / @Getter()
+  - [ ] full configuration
+  - [ ] support use on field
+  
+- [ ] @equalsAndHashCode / @EqualsAndHashCode()
+  - [ ] full configuration
+  
+- [ ] Other
+  - [ ] @NonNull
+  - [ ] @Cleanup
+  - [ ] @NoArgsConstructor, @RequiredArgsConstructor, @AllArgsConstructor
+  - [ ] @Value
+  - [ ] @Builder
+  - [ ] @SneakyThrows
+  - [ ] @Synchronized
+  - [ ] @Log
+  - [ ] experimental
+  - [ ] etc.
+  
 ## Usage
 
 A simple usage example:
