@@ -1,0 +1,21 @@
+name: lombok
+description: Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
+  Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.
+version: 0.0.1
+homepage: https://github.com/copydog/lombok.dart
+author: copydog <email@example.com>
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+#dependencies:
+#  path: ^1.4.1
+
+dev_dependencies:
+  analyzer: any
+  build: any
+  source_gen: '>=0.8.0'
+  build_config: '>=0.3.0'
+  mustache4dart: any
+  build_runner: '>=0.9.1'
+  test: any

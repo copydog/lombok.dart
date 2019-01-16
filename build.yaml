@@ -1,0 +1,16 @@
+# Read about `build.yaml` at https://pub.dartlang.org/packages/build_config
+targets:
+  $default:
+    builders:
+      lombok|lombok_builder:
+        enabled: true
+        generate_for:
+          exclude: ['**.g.dart']
+builders:
+  lombok_builder:
+    import: 'package:lombok/builder.dart'
+    builder_factories: ['lombokBuilder']
+    build_extensions: { '.dart': ['.lombok.g.part'] }
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
