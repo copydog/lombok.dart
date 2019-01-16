@@ -4,8 +4,8 @@ import 'package:lombok/src/collector/collector.dart';
 import 'package:lombok/src/template/lombok_template.dart';
 import 'package:lombok/src/util/field_util.dart';
 import 'package:lombok/src/util/template_util.dart';
-import 'package:source_gen/source_gen.dart';
 import 'package:mustache4dart/mustache4dart.dart';
+import 'package:source_gen/source_gen.dart';
 
 class GetterCollector extends Collector {
   String collect(Element el, ConstantReader annotation, BuildStep buildStep) {

@@ -3,7 +3,6 @@ import 'package:build/src/builder/build_step.dart';
 import 'package:lombok/src/collector/collector.dart';
 import 'package:lombok/src/template/lombok_template.dart';
 import 'package:lombok/src/util/field_util.dart';
-import 'package:lombok/src/util/metadata_util.dart';
 import 'package:lombok/src/util/template_util.dart';
 import 'package:mustache4dart/mustache4dart.dart';
 import 'package:source_gen/src/constants/reader.dart';
