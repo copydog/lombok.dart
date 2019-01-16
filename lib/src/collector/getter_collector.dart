@@ -11,8 +11,6 @@ class GetterCollector extends Collector {
   String collect(Element el, ConstantReader annotation, BuildStep buildStep) {
     assert(el is ClassElement);
 
-    print('getter');
-
     /// class
     if (el is ClassElement) {
       List<FieldElement> fieldList = el.fields;
