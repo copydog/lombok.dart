@@ -20,6 +20,9 @@
 - [ ] @equalsAndHashCode / @EqualsAndHashCode()
   - [ ] full configuration
   
+- [ ] @toString / @ToString()
+  - [ ] full configuration
+  
 - [ ] Other
   - [ ] @NonNull
   - [ ] @Cleanup
