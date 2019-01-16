@@ -1,22 +1,33 @@
-A library for Dart developers.
+Lombok (Dart Version)
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+## Reference
+[lombok (Java)](https://projectlombok.org)
 
 ## Usage
 
 A simple usage example:
 
 ```dart
-import 'package:lombok/lombok.dart';
+// file: some_class.dart
 
-main() {
-  var awesome = new Awesome();
+part 'some_class.g.dart';
+
+@Data
+class SomeClass with _$SomeClassLombok {
+  int counter = 1;
 }
+
+// Equal to
+class SomeClass {
+  int counter = 1;
+  
+  int getCounter() {
+    return counter;
+  }
+  
+  void setCounter(int counter) {
+    this.counter = counter;
+  }
+}
+
 ```
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
