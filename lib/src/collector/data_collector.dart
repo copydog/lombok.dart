@@ -15,7 +15,11 @@ class DataCollector extends Collector {
     if (el is ClassElement) {
       String className = el.name;
       List<FieldElement> fieldList = el.fields;
+
+      /// extract @setter field
       List<FieldElement> setterFieldList = FieldUtil.getMutableFieldList(fieldList);
+
+      /// extract @getter field
       List<FieldElement> getterFieldList = fieldList;
 
       return render(

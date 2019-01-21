@@ -12,8 +12,13 @@ class LombokCollector extends Collector {
     assert(el is ClassElement);
 
     if (el is ClassElement) {
-      List<FieldElement> setterFieldList = FieldUtil.getSetterFieldList(el.fields);
-      List<FieldElement> getterFieldList = FieldUtil.getGetterFieldList(el.fields);
+      List<FieldElement> fieldList = el.fields;
+
+      /// extract @setter field
+      List<FieldElement> setterFieldList = FieldUtil.getSetterFieldList(fieldList);
+
+      /// extract @getter field
+      List<FieldElement> getterFieldList = FieldUtil.getGetterFieldList(fieldList);
 
       return render(
         lombok_template,

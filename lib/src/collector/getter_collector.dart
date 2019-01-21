@@ -13,7 +13,10 @@ class GetterCollector extends Collector {
 
     /// class
     if (el is ClassElement) {
+      String className = el.name;
       List<FieldElement> fieldList = el.fields;
+
+      /// extract @setter field
       List<FieldElement> setterFieldList = FieldUtil.getSetterFieldList(el.fields);
 
       return render(
