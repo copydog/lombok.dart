@@ -1,3 +1,8 @@
+## 0.0.4
+
+- Support generic type
+- Considering generate setter for private field
+
 ## 0.0.3
 
 - Fix getter template
