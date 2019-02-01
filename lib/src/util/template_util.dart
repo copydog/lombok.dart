@@ -5,7 +5,7 @@ class TemplateUtil {
     return fieldList.map((item) {
       return {
         'fieldName': item.name,
-        'fieldType': item.type.name,
+        'fieldType': item.type.displayName,
       };
     }).toList();
   }
@@ -15,7 +15,7 @@ class TemplateUtil {
       return {
         'fieldName': item.name,
         'functionName': item.name.substring(0, 1).toUpperCase() + item.name.substring(1),
-        'fieldType': item.type.name,
+        'fieldType': item.type.displayName,
       };
     }).toList();
   }

@@ -36,6 +36,7 @@ abstract class _$SetterClassTemplateLombok {
   double fieldB;
   String fieldC;
   bool fieldD;
+  String finalFieldE;
 
   /// Setter
   void setFieldA(int fieldA) {
