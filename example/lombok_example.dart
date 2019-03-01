@@ -1,4 +1,5 @@
 import 'package:lombok/lombok.dart';
+import 'package:mobx/mobx.dart';
 
 part 'lombok_example.g.dart';
 
@@ -8,4 +9,7 @@ class SetterExample with _$SetterExampleLombok {
   String b = '2';
   List<int> c = [3, 4, 5];
   bool _d = false;
+
+  @observable
+  int f = 6;
 }

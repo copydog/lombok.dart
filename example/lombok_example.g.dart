@@ -12,8 +12,10 @@ abstract class _$SetterExampleLombok {
   String b;
   List<int> c;
   bool _d;
+  int f;
 
   /// Setter
+
   void setA(int a) {
     this.a = a;
   }
@@ -28,6 +30,11 @@ abstract class _$SetterExampleLombok {
 
   void set_d(bool _d) {
     this._d = _d;
+  }
+
+  @action
+  void setF(int f) {
+    this.f = f;
   }
 
   /// Getter

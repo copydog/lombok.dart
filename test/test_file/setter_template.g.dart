@@ -15,6 +15,7 @@ abstract class _$SetterFieldTemplateLombok {
   String finalFieldE;
 
   /// Setter
+
   void setFieldA(int fieldA) {
     this.fieldA = fieldA;
   }
@@ -39,6 +40,7 @@ abstract class _$SetterClassTemplateLombok {
   String finalFieldE;
 
   /// Setter
+
   void setFieldA(int fieldA) {
     this.fieldA = fieldA;
   }

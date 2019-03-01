@@ -15,6 +15,7 @@ abstract class _$DataFieldTemplateLombok {
   String finalFieldE;
 
   /// Setter
+
   void setFieldA(int fieldA) {
     this.fieldA = fieldA;
   }
